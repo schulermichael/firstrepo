@@ -4,4 +4,11 @@ Version 1
 
 jetzt Version 2
 
+nun Version3 gemacht in neuem Branch Version3
+sollte wirklich in einem seperatem Branch sein.
+
+Mit Atom bearbeitet!
+
+
+
 A&F/msh

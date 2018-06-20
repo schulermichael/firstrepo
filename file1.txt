@@ -4,4 +4,14 @@ Version 1
 
 jetzt Version 2
 
+nun Version3 gemacht in neuem Branch Version3
+sollte wirklich in einem seperatem Branch sein.
+
+Mit Atom bearbeitet!
+
+gogogo
+2222222222
+
+3333333
+
 A&F/msh

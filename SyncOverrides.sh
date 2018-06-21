@@ -9,7 +9,7 @@
 ####
 
 # Parameter zum anpassen:
-WEB_OVERRIDE_DIR="http://github.com/schulermichael/af-overrides"
+WEB_OVERRIDE_DIR="https://github.com/afcomputersys/autopkg-overrides"
 
 # automatische Parameter:
 LOCAL_OVERRIDE_DIR=$(defaults read com.github.autopkg RECIPE_OVERRIDE_DIRS)

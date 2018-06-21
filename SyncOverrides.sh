@@ -35,7 +35,7 @@ git -C "$LOCAL_OVERRIDE_DIR" pull
 OVERRIDEFILES="$LOCAL_OVERRIDE_DIR/*"
 for f in $OVERRIDEFILES
 do
-  if [[ "$f" != *"README.md"* ]]
+  if [[ "$f" == *"recipe"* ]]
   then
     yes | autopkg update-trust-info $f
   fi
@@ -47,7 +47,7 @@ rm "$RECIPE_LIST_TXT"
 OVERRIDEFILES="$LOCAL_OVERRIDE_DIR/*"
 for f in $OVERRIDEFILES
 do
-  if [[ "$f" != *"README.md"* ]]
+  if [[ "$f" == *"recipe"* ]]
   then
     RECIPE_LIST_TXT_ELEMENT=$(/usr/libexec/PlistBuddy -c "Print :Identifier" $f)
     echo "$RECIPE_LIST_TXT_ELEMENT" >> "$RECIPE_LIST_TXT"
